@@ -18,6 +18,8 @@ namespace WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddTransient<CalculatorService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
