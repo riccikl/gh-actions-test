@@ -19,5 +19,13 @@ namespace WebApp.Test
 
             Assert.Equal(21, result);
         }
+
+        [Fact]
+        public void TestSubtraction()
+        {
+            var result = 39 - 12;
+
+            Assert.Equal(17, result);
+        }
     }
 }
