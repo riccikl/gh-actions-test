@@ -25,7 +25,7 @@ namespace WebApp.Test
         {
             var result = 39 - 12;
 
-            Assert.Equal(17, result);
+            Assert.Equal(27, result);
         }
     }
 }
